@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>ztext　サンプル</title>
+        <style type="text/css">
+            body {
+                text-align: center;
+                /*   height: 2000px;
+                width: 2000px; */
+            }
+            h1 {
+                color: #ff00ff;
+                font-size: 10rem;
+            }
+            .z-layer:not(:first-child) {
+                color: #0f000f;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Test!</h1>
+
+        <script src="https://assets.codepen.io/85188/ztext.min.js"></script>
+        <script type="text/javascript">
+            var ztxt = new Ztextify ('h1', {
+            event: 'pointer',
+            depth: '120px', //奥行き
+            layers: 30,
+            fade: true, //ふんわりシャドウ
+            eventRotation: '50deg'
+        });
+        </script>
+    </body>
+
+</html>

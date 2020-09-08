@@ -1,2 +1,2 @@
 # ztext
-ztextサンプル作成
+ztextサンプルコード作成
